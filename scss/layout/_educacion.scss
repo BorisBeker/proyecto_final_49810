@@ -1,0 +1,13 @@
+.seccion-educacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        @extend .subtitulo;
+        margin-top: 4.375rem;
+        text-shadow: .1875rem .1875rem 0px $colorCuatro;
+    }
+
+    @import "components/grid";
+}

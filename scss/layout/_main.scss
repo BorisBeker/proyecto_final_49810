@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    
+    img {
+            max-width: 40vw;
+        }
+
+    .datos {
+        margin-left: 1.875rem;
+        min-width: 30vw;
+        max-width: 40vw;
+    }
+    
+    .redes_sociales {
+        justify-content: start;
+    }
+}

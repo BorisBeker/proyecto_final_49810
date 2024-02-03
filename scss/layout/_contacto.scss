@@ -1,0 +1,20 @@
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+        div {
+            display: flex;
+            flex-direction: column;
+        
+            #mensaje {
+                resize: none;
+            }
+        }
+    }
+}

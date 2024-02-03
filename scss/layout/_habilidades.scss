@@ -1,0 +1,30 @@
+@import "../utilities/mixins";
+
+.seccion-habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        @extend .subtitulo;
+        text-shadow: .1875rem .1875rem 0px $colorCuatro;
+    }
+
+    .contenedor-habilidades {
+        width: 100%;
+        padding: 1.25rem;
+
+        .habilidad {
+            @include mixinHabilidad();
+
+            img {
+                height: 12.5rem;
+                margin: 1.25rem;
+            }
+
+            p {
+                margin-top: .625rem;
+            }
+        }
+    }
+}

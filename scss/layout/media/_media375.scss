@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+    // Main
+    .datos h1,
+    .datos h2 {
+        text-align: center;
+    }
+
+    // habilidades
+    .seccion-habilidades{
+        img{
+            object-fit: cover;
+            max-width: 50vw;
+        }
+    }
+}

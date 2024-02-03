@@ -1,0 +1,42 @@
+footer {
+    background-color: $colorUno;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    box-shadow: 0px -0.0625rem .625rem;
+
+    h2 {
+        margin: .625rem;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding-bottom: .625rem;
+            padding-left: .9375rem;
+
+            a {
+                color: $colorCinco;
+                text-decoration: none;
+            }
+        }
+    }
+
+    div p {
+        padding: .9375rem;
+    }
+
+    i {
+        margin-bottom: .625rem;
+        margin-right: .625rem;
+        height: 1.875rem;
+    }
+
+    .redes_sociales {
+        display: flex;
+        justify-content: end;
+    }
+}

@@ -1,0 +1,30 @@
+//reset
+@import "base/reset";
+
+//colores
+@import "base/colores";
+
+//fuentes
+@import "base/fonts";
+
+//extends
+@import "utilities/extends";
+
+//contenido
+@import "layout/body";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/contacto";
+@import "layout/proyectos";
+@import "layout/habilidades";
+@import "layout/educacion";
+@import "layout/pedidos";
+
+// Media queries
+@import "layout/media/media1024";
+@import "layout/media/media425";
+@import "layout/media/media375";
+@import "layout/media/media320";
+
+

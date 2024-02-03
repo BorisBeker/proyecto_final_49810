@@ -1,0 +1,12 @@
+@media (max-width:1024px) {
+    .proyectos{
+        .container{
+            max-width: 90vw;
+            .cards{
+                .card{
+                    margin: 2.5rem 3.125rem;
+                }
+            }
+        } 
+    }
+}
